@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRAVEL PAGE</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <div class="nav-bar">
+        <div class="logo">
+          <a href="#"><img src="assets/logo.png" alt="logo"></a>
+        </div>
+        <div class="nav-menu-btn" id="menu-btn">
+          <i class="fas fa-outdent hamburger"></i>    
+        </div>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#offer">Offer</a></li>
+        <li><a href="#client">Client</a></li>
+        <li><button class="btn">Sign Up</button></li>
+      </ul>
+    </nav>
+    <div class="section-container header-container" id="home">
+      <h1>No Matter Where You Are Going To, We Take You There</h1>
+      <p>You do not have to remain silent, let us know what your challenges are</p>
+    </div>
+    <div class="booking">
+      <div class="booking-type" id="booking-type">
+        <div class="active">One Way</div>
+        <div>Round Trip</div>
+        <div>Multi City</div>
+      </div>
+      <form action="/" class="booking-form">
+        <div class="booking-input">
+          <label for="departure">From</label>
+          <input type="text" placeholder="Departure">
+        </div>
+        <div class="booking-input">
+          <label for="arrival">To</label>
+          <input type="text" placeholder="Arrival">
+        </div>
+        <div class="booking-input">
+          <label for="date">Date</label>
+          <input type="text" placeholder="Date">
+        </div>
+      </form>
+      <div class="booking-btn">
+        <button class="btn">Book Now</button>
+      </div>
+    </div>
+  </header>
+  
+  <section class="section-container service-container" id="service">
+    <h2 class="section-header">
+      Our Services
+    </h2>
+    <p class="section-description">
+      Embark on unforgettable journeys with with our tourism and where wonderlust meets convenience.
+    </p>
+    <div class="service-grid">
+      <div class="service-card">
+        <img src="assets/service-1.jpg" alt="">
+        <div>
+          <div>
+            <h4>Cruise Ticket</h4>
+            <p>
+              Imerse yourself in the allure of the open sea as you are on a meticulously crafted cruise boat
+            </p>
+          </div>
+          <div class="service-btn">
+            <button class="btn">See All</button>
+          </div>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="assets/service-2.jpg" alt="">
+        <div>
+          <div>
+            <h4>Car Booking</h4>
+            <p>
+              Experience unparallel convenience with our Car Booking service, designed to elevate your experience
+            </p>
+          </div>
+          <div class="service-btn">
+            <button class="btn">See All</button>
+          </div>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="assets/service-3.jpg" alt="">
+        <div>
+          <div>
+            <h4>Air Ticket</h4>
+            <p>
+              Secure your wings to the world with our Air Tickets service, your gateway to seamless travel
+            </p>
+          </div>
+          <div class="service-btn">
+            <button class="btn">See All</button>
+          </div>
+        </div>
+      </div>
+      <div class="service-card hotel">
+        <img src="assets/service-4.jpg" alt="">
+        <div>
+          <div>
+            <h4>Hotel Booking</h4>
+            <p>
+              Browse through a curated selection of handpicked Hotels, chosen foe thier amenities, quality and prime locations
+            </p>
+          </div>
+          <div class="service-btn">
+            <button class="btn">See All</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-container offer-container" id="offer">
+    <div class="offer-header">
+      <h2 class="section-header">Flight Offer Details</h2>
+      <a href="#">See All</a>
+    </div>
+    <div class="offer-grid">
+      <div class="offer-card">
+        <img src="assets/offer-1.jpg" alt="offer">
+        <h4>Lagos to New York</h4>
+        <P>9 April 2024</P>
+        <div>
+          <span>$850</span>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+      <div class="offer-card">
+        <img src="assets/offer-2.jpg" alt="offer">
+        <h4>Lagos to Dubai</h4>
+        <P>14 April 2024</P>
+        <div>
+          <span>$550</span>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+      <div class="offer-card">
+        <img src="assets/offer-3.jpg" alt="offer">
+        <h4>Lagos to Durban</h4>
+        <P>23 April 2024</P>
+        <div>
+          <span>$350</span>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-container about-container" id="about">
+    <div class="about-image">
+      <img src="assets/about.png" alt="about">
+    </div>
+    <div class="about-content">
+      <h2 class="section-header">EASY WAY TO GO TO YOUR NEXT STATION</h2>
+      <p class="section-description">
+        Navigate the world effortlessly with our user-friendly platform, connecting you to the finnest destinations and accomodations
+      </p>
+      <ul>
+        <li>
+          <span><i class="fa fa-circle-check"></i></span>
+          Easily find and compare transportation options ensuring a hassle-free journey to your next destination
+        </li>
+        <li>
+          <span><i class="fa fa-circle-check"></i></span>
+          Enjoy a straightfoward and quick booking experience for flight, trains and other transportation modes, all in one place
+        </li>
+      </ul>
+      <div class="about-links">
+        <a href="#">
+          <img src="assets/google-play.png" alt="">
+        </a>
+        <a href="#">
+          <img src="assets/app-store.png" alt="">
+        </a>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="client" id="client">
+    <div class="section-container client-container">
+      <h2 class="section-header">What Our Clients Say</h2>
+      <p class="section-description">
+        Discover the stories of wonderlust and cherished memories from the eyes of our valued customers
+      </p>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="client-card">
+              <img src="assets/client-1.jpg" alt="">
+              <h4>Allen Mark</h4>
+              <p>Photographer</p>
+              <div class="client-ratings">
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star-half"></i>  </span>
+              </div>
+              <p>
+                As a frequent traveller, I realy on this website for all my journeys. the 24/7 customer support has been of great help
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client-card">
+              <img src="assets/client-2.jpg" alt="">
+              <h4>Emily Hurst</h4>
+              <p>Journalist</p>
+              <div class="client-ratings">
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star-half"></i>  </span>
+              </div>
+              <p>
+                Booking my dream vacation was a breeze with this platform! The
+                seamless hotel booking made my trip unforgettable.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client-card">
+              <img src="assets/client-3.jpg" alt="">
+              <h4>Jane Clover</h4>
+              <p>Blogger</p>
+              <div class="client-ratings">
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+              </div>
+              <p>
+                The local guides and experiences offered by this platform
+                added a whole new dimension to my travels.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client-card">
+              <img src="assets/client-4.jpg" alt="">
+              <h4>Paul Cash</h4>
+              <p>Photographer</p>
+              <div class="client-ratings">
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+                <span><i class="fa-solid fa-star"></i>  </span>
+              </div>
+              <p>
+                The convenience of booking flights, accommodations, and
+                transportation all in one place is a game-changer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="section-container footer-container">
+      <div class="footer-col main-col">
+        <div class="logo">
+          <a href="#"><img src="assets/logo.png" alt=""></a>
+        </div>
+        <p>
+          Explore the world with ease and excitement through our comprehensive
+          travel platform. Your journey begins here, where seamless planning
+          meets unforgettable experiences.
+        </p>
+        <ul class="footer-socials">
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Flights</a>
+          </li>
+          <li>
+            <a href="#">Hotels</a>
+          </li>
+          <li>
+            <a href="#">Cruise</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul class="footer-links">
+          <li>
+            <a href="#">
+              <span><i class="fa-solid fa-phone"></i></span> +2348074663163
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="fa-solid fa-envelope"></i></span> raphachris144@gmail.com
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="fa-solid fa-map"></i></span> Abuja, Nigeria
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col main-col2">
+        <h4>Subscribe</h4>
+        <form action="/">
+          <input type="text" placeholder="Enter your email">
+          <button class="btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bar">
+      @ 2024 Rapha Chris HTML, CSS and JavaScript Personal Project
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
